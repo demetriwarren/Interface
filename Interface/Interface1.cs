@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Interface
 {
-    internal interface IPet // created this to show that all of the pets belong to this specific collection, data must have a matching piece of data. 
+    internal interface IPet // created this to show that all of the pets belong to this specific collection(type list), data must have a matching piece of data. 
     {
         string Speak();
     }

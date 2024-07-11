@@ -4,8 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Dog dog1 = new Dog { Breed = "German Sheperd", Age = 2, Weight = 30 };
-            Dog dog2 = new Dog { Breed = "Collie", Age = 1, Weight = 10 };
+            Dog dog1 = new Dog { Breed = "German Sheperd", Age = 2, Weight = 30, EyeColor = "Grey" };
+            Dog dog2 = new Dog { Breed = "Collie", Age = 1, Weight = 10, EyeColor = "Blue" };
 
             Cat cat1 = new Cat { Weight = 20, Age = 3, Color = "Grey" };
             Cat cat2 = new Cat { Weight = 7, Age = 2, Color = "Orange" };
@@ -24,7 +24,7 @@
 
                 if(aDog is not null)
                 {
-                    Console.WriteLine($"The Dog's breed is {aDog.Breed}, Age is {aDog.Age}, Weight is {aDog.Weight}");
+                    Console.WriteLine($"The Dog's breed is {aDog.Breed}, Age is {aDog.Age}, Weight is {aDog.Weight}, and Eye Color is {aDog.EyeColor}");
                 }
                 if (aCat is not null)
                 {

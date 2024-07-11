@@ -11,6 +11,7 @@ namespace Interface
         public string Breed { get; set; } = string.Empty;
         public int Age { get; set; }
         public int Weight { get; set; }
+        public string EyeColor { get; set; } = string.Empty ;
         
         
         public string Speak() {

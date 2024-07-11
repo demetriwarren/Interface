@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Interface
 {
-    internal interface IDog // didnt necessarily need to create this but did just to show that you can use didnt interfaces
+    internal interface IDog // didnt necessarily need to create this but did just to show that you can use different interfaces
     {
         public string Breed { get; set; }
         public int Age { get; set; }
